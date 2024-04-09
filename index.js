@@ -12,7 +12,7 @@ app.use(express.static(buildPath));
 
 
 const corsOptions={
-  origin:'https://frontend-dc9l.onrender.com',
+  origin:'https://kenny-portfolio-frontend.onrender.com',
   optionsSuccessStatus:200
 }
 app.use(cors(corsOptions))
